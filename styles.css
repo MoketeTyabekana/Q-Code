@@ -19,6 +19,7 @@
     background: #fff;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px #001e307a;
+   
  }
 
  .container p{
@@ -46,5 +47,29 @@
     border: none;
     border-radius: 5px;
     font-weight: 600;
+  margin-top: 10px;
     font-size: 15px;
+ }
+
+ #imgbox{
+
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    
+
+ }
+
+ #imgbox img{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+
+ #imgbox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border:  1px solid #001e307a;
  }
